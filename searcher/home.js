@@ -41,25 +41,39 @@ function advance_search() {
   replace_content.send();
 }
 function developer() {
-  dev.innerHTML =`  <div id="foot">
-       <div id="info">
-            <img id="me" src="imgs/me.jpg"/>
-           
-            <div id="information">
-                Hallo their! I am Shivdas Subhash Jadhav. 
-                A 3<sup>rd</sup> year Deploma Student. 
-                I'm a Front-end Web Developer who has Learned HTML,CSS,JavaScript by his own from online resources ex. Youtub, google and from other webpages while the day's of covid-pandamic. 
-                Recently I have Completed my internship program of 2 months with <a href="https://www.ssinfotech.org/home/">SSIT. Private limited Nagpur.</a>
-                <br/>If you are interested to know more about me, then here are the links. 
-                <details>
-                <summary>Links</summary>
-                <summary> 
-                  My Github Profile... <a href="https://github.com/ShivdasJadhav">gihub</a>
-                </summary>
-                <summary>My LinkedIn Profile... <a href="https://www.linkedin.com/in/shivdas-jadhav-7b8096210/">LinkedIn</a></summary>
-              <summary>My Codechef Profile... <a href="https://www.codechef.com/users/kalikeya">CodeChef</a></summary>
-               
-                </details>
-        </div></div>`;
+  dev.innerHTML = `
+      <details class="info" open>
+      <summary>Developer</summary>
+      <summary> <div id="information"><img id="me" src="imgs/me.jpg"/></summary>
+           Hallo there! I am "Shivdas Subhash Jadhav". 
+           I have created this to practice my skillset of Front-End Web development. 
+           I'm a Front-end Web Developer and also a person who always used to do the things until he got satisfied. <br/> While the days of covid pandamic I choosed to study Front-End Wevdevelopment from the online free resources like Youtub, google and from other webpages.
+           Recently I have Completed my internship program in "Web Development" which of 2 months at <a href="https://www.ssinfotech.org/home/">SSIT. Private limited Nagpur.</a> In which I have worked on verious Hands-On projects. Under the guidance of "Mr. Santosh Selokar sir..."
+           <br/>If you are interested to know more about me, then here are the links. 
+           <br/><br/>
+           <summary>Links: </summary>
+           <ul>
+           <li><summary> 
+              Github Profile... <a  href="https://github.com/ShivdasJadhav">github</a>
+           </summary></li>
+           <li><summary>LinkedIn Profile... <a href="https://www.linkedin.com/in/shivdas-jadhav-7b8096210/">LinkedIn</a></summary></li>
+         <li><summary>Codechef Profile... <a  href="https://www.codechef.com/users/kalikeya">CodeChef</a></summary></li>
+          <sumamary>
+          </ul>
+  `;
 }
-developer();
+function skills() {
+  dev.innerHTML=`
+  <details class="info" open>
+  <summary>Skills:</summary><br/>
+  <ul>
+  <li><summary>C/C++</summary></li>
+  <li><summary>Core JAVA</summary></li>
+  <li><summary>JavaScript</summary></li>
+  <li><summary>Python</summary></li>
+  <li><summary>Front-End Web Development</summary></li>
+  <li><summary>ReactJS Fundamentals</summary></li>
+  </ul>
+  </details>
+  `;
+}

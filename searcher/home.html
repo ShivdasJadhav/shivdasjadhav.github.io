@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="home.css" />
   </head>
   <body>
-    <div id="container">
-      <img
+    <header
+      ><img
         id="home_button"
         src="imgs/home_button.png"
         onclick="home()"
@@ -17,9 +17,15 @@
       />
       <button id="img_btn" onclick="image_search()">Image search</button>
       <button id="adv_btn" onclick="advance_search()">Advance search</button>
+
+    </header>
+    <div id="container">
       <div id="content"></div>
-    </div>
+      <button id="dev" onclick="developer()">Developer?</button>
+      <button id="skill" onclick="skills()">Skills?</button>
+    </div><hr/>
     <footer id="developer"></footer>
+    
     <script src="home.js"></script>
   </body>
 </html>
