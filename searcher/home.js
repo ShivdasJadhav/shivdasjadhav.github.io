@@ -65,7 +65,7 @@ function developer() {
 function skills() {
   dev.innerHTML=`
   <details class="info" open>
-  <summary>Skills:</summary><br/>
+  <summary>Skillset:</summary><br/>
   <ul>
   <li>C/C++</li>
   <li>Core JAVA</li>
@@ -78,6 +78,3 @@ function skills() {
   </details>
   `;
 }
-setInterval(() => {
-  developer();
-}, 3000);

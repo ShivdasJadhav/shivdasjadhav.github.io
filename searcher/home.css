@@ -82,11 +82,11 @@ hr {
   font-weight: bold;
 }
 #developer {
+  margin-top: 1rem;
   margin: auto;
- 
+  width: 80%;
 }
 .info {
-  padding: 5rem;
 }
 #me {
   width: 15rem;
