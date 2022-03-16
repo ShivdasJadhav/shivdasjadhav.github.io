@@ -67,13 +67,17 @@ function skills() {
   <details class="info" open>
   <summary>Skills:</summary><br/>
   <ul>
-  <li><summary>C/C++</summary></li>
-  <li><summary>Core JAVA</summary></li>
-  <li><summary>JavaScript</summary></li>
-  <li><summary>Python</summary></li>
-  <li><summary>Front-End Web Development</summary></li>
-  <li><summary>ReactJS Fundamentals</summary></li>
+  <li>C/C++</li>
+  <li>Core JAVA</li>
+  <li>JavaScript</li>
+  <li>Python</li>
+  <li>Front-End Web Development</li>
+  <li>ReactJS Fundamentals</li>
+  <li>Git & Github</li>
   </ul>
   </details>
   `;
 }
+setInterval(() => {
+  developer();
+}, 3000);
