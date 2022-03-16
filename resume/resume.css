@@ -1,8 +1,7 @@
 body{
 }
 #container{
-    max-width: 60%;
-    min-width: 29rem;
+    max-width: 80%;
     margin: auto;
     margin-top: 2rem;
     border: solid black;
@@ -51,6 +50,5 @@ hr{
     margin-left: 2rem;
 }
 #certificate{
-   min-width: 50rem;
-   max-width: 50%;
+   max-width: 90%;
 }
