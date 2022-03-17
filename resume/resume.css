@@ -8,13 +8,13 @@ body{
 header{
     background-color: rgb(195, 237, 127);
     text-align: center;
+    font-weight: bold;
 }
 #me,#info{
     display: inline-block;
     padding: 0.3rem;
 }
 #info{
-    font-size: large;
     margin-left: 1rem;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
@@ -27,9 +27,8 @@ header{
     background-color: rgb(255, 255, 255);
 }
 main{
-    font-size: 1.5rem;
+    font-weight: bold;
     margin-left: 1rem;
-    font-family: 'Times New Roman', Times, serif;
     margin-bottom: 2rem;
 }
 .titals{
