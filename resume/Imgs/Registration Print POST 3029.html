@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://indiapostgdsonline.in/Reg_Print.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+	Registration Print
+</title>
+    <style type="text/css">
+        .logostyle {
+            width: 150px;
+            height: 75px;
+        }
+
+        .tblprintdata {
+            width: 100%;
+            text-align: left;
+            border: 1px solid #EEEEEE;
+            border-collapse: collapse;
+            border-spacing: 0px;
+            font-family: Calibri;
+            font-size: 18px;
+        }
+
+            .tblprintdata tr td {
+                border: 1px solid #EEEEEE;
+                border-collapse: collapse;
+                border-spacing: 0px;
+            }
+
+            .tblprintdata tr {
+                height: 30px;
+            }
+
+            .tblprintdata td:nth-child(2n+1) {
+                width: 330px;
+                padding-left: 20px;
+            }
+
+            .tblprintdata td:nth-child(2n+2) {
+                width: 370px;
+                padding-left: 20px;
+            }
+
+        .btn {
+            width: 150px;
+            height: 25px;
+            background-color: maroon;
+            color: white;
+            border: none;
+            font: 16px;
+            font-weight: bold;
+        }
+    </style>
+    <script type="text/javascript">
+        function callPrint(printDiv) {
+            //var prtContent = document.getElementById(printDiv);
+            //var WinPrint = window.open('', '', 'letf=0,top=0,width=600,height=600,toolbar=1,scrollbars=1,status=0');
+            //WinPrint.document.write(prtContent.innerHTML);
+            //WinPrint.document.close();
+            //WinPrint.focus();
+            //WinPrint.print();
+            //WinPrint.close();
+            //prtContent.innerHTML = '';
+
+            var printContent = document.getElementById(printDiv).innerHTML;
+            var originalContent = document.body.innerHTML;
+            document.body.innerHTML = printContent;
+            window.print();
+            document.body.innerHTML = originalContent;
+        }
+    </script>
+
+    <script type="text/javascript">
+        //preventing back button click
+        function backhis() {
+            if (history.length > 0)
+                history.go(+1);
+        }
+    </script>
+</head>
+<body style="background-color: #EEEEEE" onload="backhis()">
+                        <div style="width: 1080px; height: 80px;">
+                            <div style="width: 150px; height: 80px; float: left"></div>
+                            <div style="width: 780px; height: 80px; float: left; line-height: 80px; text-align: center; font-family: Calibri; font-size: 30px; color: #800000;">
+                                Department of Posts - India
+                            </div>
+                            <div style="width: 150px; height: 80px; float: left">
+                                <img alt="Logo" class="logostyle" src="./Registration Print POST 3029_files/logo.jpg">
+                            </div>
+                        </div>
+                        <div style="width: 1080px; height: 10px"></div>
+                        <div style="width: 1080px">
+                            <div style="width: 800px; height: 30px; line-height: 30px; text-align: left; font-family: Calibri; font-size: 24px; color: maroon; float: left;">
+                                GDS Engagement - Registration
+                            </div>
+                            <div style="width: 280px; height: 30px; line-height: 30px; text-align: left; font-family: Calibri; font-size: 16px; color: black; float: left;">
+                                Date &amp; Time:
+                                <span id="lblDateTime">07/05/2022 14:04:38</span>
+                            </div>
+                        </div>
+                        <div style="width: 1080px; height: 10px"></div>
+                        <div style="width: 1080px; height: auto;">
+                            <table class="tblprintdata">
+                                <tbody><tr>
+                                    <td>Registration Number:</td>
+                                    <td>
+                                        <span id="lblRegNo">SR2F457D68A227</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Name:</td>
+                                    <td>
+                                        <span id="lblName">GAYKE SOPAN GAJANAN</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Father/Mother Name:</td>
+                                    <td>
+                                        <span id="lblFatherName">GAJANAN</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Date of Birth:</td>
+                                    <td>
+                                        <span id="lblDOB">03/11/2001</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Gender:</td>
+                                    <td>
+                                        <span id="lblGender">Male</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Community:</td>
+                                    <td>
+                                        <span id="lblCommunity">EWS</span></td>
+                                </tr>
+                                <tr>
+                                    <td>PWD Category:</td>
+                                    <td>
+                                        <span id="lblPWD">-</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Circle in which 10th Class Passed:</td>
+                                    <td>
+                                        <span id="lblState">Maharashtra</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Year in which 10th Class Passed:</td>
+                                    <td>
+                                        <span id="lblYear">2017</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Languages studied in 10th class</td>
+                                    <td>
+                                        <span id="lbllanguages">English, Hindi, Marathi</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Can you ride a BiCycle</td>
+                                    <td>
+                                        <span id="lblBiCycle">Yes</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Whether Employed</td>
+                                    <td>
+                                        <span id="lblEmployed">No</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Whether Employer NOC available</td>
+                                    <td>
+                                        <span id="lblEmployerNOC">No</span></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><b>Declaration</b></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">I have studied and understood the notification and found myself eligible for applying to this post. This is not a duplicate Registration. If found duplicate my entire candidature will be cancelled.</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><b>Note</b></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">Based on the languages studied in 10th class, you are eligible for applying to the vacancies (if any) of the following circles</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <span id="lblCircles">Bihar, Chattisgarh, Delhi, Haryana, Himachal Pradesh, J&amp;K, Jharkhand, Madhya Pradesh, Maharashtra, North East, Punjab, Rajasthan, Uttar Pradesh, Uttarakhand, West Bengal</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><b>Instructions to the Candidate</b></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><b>1.</b> Please keep the Registration Number for future references.</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><b>2.</b> Department of Posts does not make phone calls for any purpose. Be guarded against any unscrupulous phone calls.</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><b>3.</b> UR/OBC Male/Transmale candidates have to make payment of Rs. 100/- for applying online. </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><b>4.</b> Fee can be paid at any Head Post Office/Online.</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="text-align: justify"><b>5.</b> It is the responsibility of the candidate to check whether he/she is eligible for applying to the post/circle at the time of Payment, since fee once paid cannot be refunded.</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="text-align: justify"><b>6.</b> The Registration Data is Candidate's permanent data and should be entered only once during the cycle. Furnishing the information like Candidate's original community, DOB, name, father's name as per SSC records and all other data should tally with the document supported and Registration once made will not be allowed to change. Hence Candidates are requested to check and confirm the Preview before submission of Registration Data. Reregistration with different data will be treated as falsification of information and duplication of Registration, and is liable for removal of candidature for applying to any of the posts.</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"></td>
+                                </tr>
+                            </tbody></table>
+                        </div>
+                        <div style="width: 1080px; text-align: center;">
+                            <input type="submit" name="btnPrint" value="Print" onclick="javascript:callPrint(&#39;printDiv&#39;);" id="btnPrint" class="btn">
+                        </div>
+                    </body></html>
