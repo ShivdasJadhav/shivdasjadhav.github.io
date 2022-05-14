@@ -1,0 +1,79 @@
+.intro{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 15vh;
+    margin-top: 13rem;
+}
+.ileft{
+    width: 40%;
+    display: inline-block;
+}
+.ileft>span{
+    font-size: 2rem;
+    color: grey;
+    display: block;
+    font-weight: bold;
+}
+.ileft>name{
+    font-size: 2rem;
+    color: orange;
+    display: block;
+    font-weight: bolder;
+}
+.ileft>p{
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: grey;
+}
+.iright{
+    background-color: aquamarine;
+    width: 60%;
+    display: inline-block;
+}
+#bg{
+    position: absolute;
+    transform: rotate(-20deg);
+    transform: scale(1.2);
+    border-radius: 50%;
+    margin-top: -15rem;
+    margin-left: 20rem;
+}
+#me{
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0.856);
+    margin-top: -19.25rem;
+    margin-left: 15.6rem;
+}
+.imgs>img{
+    position: absolute;
+}
+#css{
+    transform: scale(0.12);
+    margin-top: -16rem;
+    margin-left: 34rem;
+}
+#java{
+    transform: scale(0.14);
+    margin-left: 20rem;
+    margin-top: -4rem;
+}
+#html{
+    transform: scale(0.27);
+    margin-top: -20rem;
+    margin-left: 39rem;
+}
+#reactjs{
+    transform: scale(0.18);
+    margin-top: -5rem;
+    margin-left: 3rem;
+}
+#js{
+    transform: scale(0.3);
+    margin-left: 4rem;
+    margin-top: -8rem;
+}
+#git{
+    transform: scale(0.16);
+    margin-left: 29rem;
+    margin-top: -6rem;
+}

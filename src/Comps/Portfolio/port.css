@@ -1,0 +1,74 @@
+.port {
+  margin-top: 15rem;
+  width: 100%;
+}
+.pimgs {
+  display: inline-block;
+  width: 40%;
+  margin-top: 7rem;
+}
+.img > img {
+  position: absolute;
+}
+.pimgs,.imgs> img:hover {
+  cursor: pointer;
+}
+
+#searcher {
+  transform: scale(0.57);
+  padding: 2rem;
+  margin-left: -12rem;
+  border: 7px solid rgb(223, 254, 255);
+}
+#videolink {
+  transform: scale(0.25);
+  margin-left: -40rem;
+  margin-top: -38rem;
+  padding: 2rem;
+  border: 7px solid rgb(223, 254, 255);
+}
+#resume {
+  display: inline-block;
+  transform: scale(0.36);
+  padding: 2rem;
+  margin-left: -22rem;
+  margin-top: -46rem;
+  border: 7px solid rgb(223, 254, 255);
+}
+.pleft {
+  margin-top:20rem;
+  display: inline-block;
+  text-align: left;
+  float: right;
+  width: 55%;
+}
+.pleft > span {
+  font-size: 2rem;
+  font-weight: bold;
+  color: grey;
+  display: block;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.pleft > span > h3 {
+  font-weight: bold;
+  color: rgb(132, 119, 119);
+  font-size: 2.5rem;
+  display: inline-block;
+  margin: 0;
+}
+.pleft > h3 {
+  margin: 0%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 2rem;
+  color: orange;
+}
+.pleft > p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: grey;
+  font-size: 1.5rem;
+}
+.btn {
+  float: right;
+  margin-right: 10rem;
+}

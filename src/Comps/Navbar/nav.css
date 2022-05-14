@@ -1,0 +1,35 @@
+.nav{
+    position: fixed;
+    height: 10vh;
+    margin-top: -1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 2rem;
+    width: 80rem;
+    z-index: 10;background-color: rgb(255, 255, 255);
+}
+.nav>span{
+    font-size: 2rem;
+    font-weight: bold;
+    color: orange;
+}
+
+.nav>ul{
+    list-style-type: none;
+    margin-left: 10rem;
+    display: inline;
+}
+.nav>ul>li{
+    margin-left: 2rem;
+    color: grey;
+    font-size: 1.7rem;
+    display: inline;
+}
+.nav>ul>li:hover{
+    color: orange;
+    cursor: pointer;
+}
+hr{
+    border-radius: 0.5rem;
+    height: 0.5vh;
+    background-color: rgb(248, 213, 149);
+}

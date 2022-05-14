@@ -1,0 +1,55 @@
+.footer{
+    background-color: rgb(196, 94, 94);
+    width: 100%;
+    border-radius:0 120% 0 0 ;
+}
+.foot{
+    height: 30rem;
+    background-color: rgb(241, 216, 142);
+    width: 100%;
+    border-radius:100% 0 0 0 ;
+}
+#fb,#chef,#linkdin{
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+}
+#fb{
+    transform: scale(0.3);
+    margin-left: 23rem;
+    margin-top: 1.6rem;
+}
+#chef{
+    transform: scale(0.3);
+    margin-top: 1rem;
+    margin-left: 32.6rem;
+}
+#linkdin{
+    transform: scale(0.3);
+    margin-left: 38rem;
+    margin-top: 1.42rem;
+}
+.cont{
+    margin-top: 8rem;
+    justify-content: baseline;
+    float: right;
+    display: inline-block;
+    align-items: right;
+    margin-right: 4rem;
+}
+h3{
+    font-size: 1.8rem;
+    display: inline-block;
+    color: rgb(99, 99, 99);
+}
+.cont>span{
+    display: block;
+    font-size: 1.5rem;
+    color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cont>p{
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+}
